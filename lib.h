@@ -5,3 +5,4 @@ bool cerca(char [10][20], int &, char[]);
 
 
 #endif //ES9_LIB_H
+
