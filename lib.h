@@ -1,17 +1,7 @@
-#include "lib.h"
+#ifndef ES9_LIB_H
+#define ES9_LIB_H
 
-bool cerca(char lista[10][20], int &posizione, char target[]){
-    for(int i=0;i<10;i++){
-        for(int j=0;j<20;j++){
-            if(lista[i][j] != target[j]){
-                j = 20;
-            }else{
-              if(j==19){
-                  posizione = i;
-                  return true;
-              }
-            }
-        }
-    }
-    return false;
-}
+bool cerca(char [10][20], int &, char[]);
+
+
+#endif //ES9_LIB_H
